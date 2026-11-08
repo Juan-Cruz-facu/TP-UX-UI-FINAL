@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Juan Cruz Rafart Barrionuevo | Portfolio UX/UI y Front-end</title>
+  <meta name="description" content="Portfolio de Juan Cruz Rafart Barrionuevo, estudiante de Sistemas de Información. Casos de estudio de UX/UI, diseño de interfaces y desarrollo front-end accesible.">
+  <meta name="author" content="Juan Cruz Rafart Barrionuevo">
+  <link rel="canonical" href="https://TU-USUARIO.github.io/TU-REPO/">
+  <meta name="theme-color" content="#FAF7F2">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:title" content="Juan Cruz Rafart Barrionuevo | Portfolio UX/UI y Front-end">
+  <meta property="og:description" content="Casos de estudio de UX/UI, diseño de interfaces y desarrollo front-end accesible.">
+  <meta property="og:image" content="https://TU-USUARIO.github.io/TU-REPO/assets/img/og-image.png">
+  <meta property="og:image:alt" content="Vista previa del portfolio de Juan Cruz Rafart Barrionuevo">
+  <meta property="og:url" content="https://TU-USUARIO.github.io/TU-REPO/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a href="#contenido" class="skip-link">Saltar al contenido</a>
+
+  <!-- 1. HEADER -->
+  <header id="header" class="site-header">
+    <div class="container bar">
+      <a href="#inicio" class="logo" aria-label="Juan Cruz, ir al inicio">JC<span>.</span></a>
+      <button class="menu-btn" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span aria-hidden="true">☰</span>
+      </button>
+      <nav id="menu" class="menu" aria-label="Principal">
+        <ul>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#experience">Formación</a></li>
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="https://github.com/TU-USUARIO" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="#contact" class="btn btn-primary btn-sm">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+
+    <!-- 2. HERO -->
+    <section id="inicio" class="hero container" aria-labelledby="hero-titulo">
+      <p class="badge"><span class="dot" aria-hidden="true"></span> Disponible para pasantías</p>
+      <h1 id="hero-titulo">Juan Cruz Rafart Barrionuevo</h1>
+      <p class="role">Diseñador UX/UI y desarrollador front-end</p>
+      <p class="lead">Diseño interfaces claras y accesibles, y las llevo a código limpio: de la investigación con usuarios al sitio publicado.</p>
+      <div class="actions">
+        <a href="#projects" class="btn btn-primary">Ver trabajos</a>
+        <a href="#contact" class="btn btn-secondary">Contacto</a>
+      </div>
+      <p class="meta">Entre Ríos, Argentina · GMT-3</p>
+    </section>
+
+    <!-- 3. MÉTRICAS -->
+    <section id="metricas" class="container" aria-labelledby="metricas-titulo">
+      <h2 id="metricas-titulo" class="sr-only">Highlights</h2>
+      <ul class="grid metrics">
+        <li class="card"><strong>2</strong><span>años de carrera</span></li>
+        <li class="card"><strong>3</strong><span>casos de estudio</span></li>
+        <li class="card"><strong>20</strong><span>ejercicios HTML/CSS</span></li>
+        <li class="card"><strong>5</strong><span>herramientas de diseño y código</span></li>
+      </ul>
+    </section>
+
+    <!-- 4. SKILLS -->
+    <section id="skills" class="container section" aria-labelledby="skills-titulo">
+      <h2 id="skills-titulo">Skills</h2>
+      <div class="grid skills">
+        <article class="card">
+          <h3>Diseño UX</h3>
+          <p>Investigo usuarios, comparo referentes y valido con pruebas de usabilidad.</p>
+          <ul class="chips"><li>Research</li><li>Benchmark</li><li>Wireframes</li><li>Test de usabilidad</li></ul>
+        </article>
+        <article class="card">
+          <h3>Diseño UI</h3>
+          <p>Construyo sistemas de diseño coherentes con color, tipografía y componentes.</p>
+          <ul class="chips"><li>Figma</li><li>Design system</li><li>Prototipos</li><li>Tipografía</li></ul>
+        </article>
+        <article class="card">
+          <h3>Front-end</h3>
+          <p>Maqueto sitios semánticos, responsive y accesibles, sin frameworks.</p>
+          <ul class="chips"><li>HTML5</li><li>CSS3</li><li>Tailwind CSS</li><li>JavaScript</li></ul>
+        </article>
+        <article class="card">
+          <h3>Herramientas</h3>
+          <p>Versiono, publico y audito mis proyectos de punta a punta.</p>
+          <ul class="chips"><li>Git</li><li>GitHub</li><li>VS Code</li><li>Lighthouse</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- 5. PROYECTOS -->
+    <section id="projects" class="container section" aria-labelledby="projects-titulo">
+      <h2 id="projects-titulo">Proyectos</h2>
+      <div class="grid projects">
+        <article class="card project">
+          <img src="assets/img/mockup.svg" alt="Mockup del flujo de contratación de Cubrí Seguros" width="640" height="400" loading="lazy">
+          <div class="body">
+            <p class="year">2026</p>
+            <h3><a href="#caso-cubri" data-open="caso-cubri">Cubrí Seguros: contratación digital</a></h3>
+            <p>Rediseño del flujo para contratar un seguro de celular en pocos pasos.</p>
+            <ul class="chips"><li>Figma</li><li>HTML</li><li>Tailwind</li><li>JavaScript</li></ul>
+          </div>
+        </article>
+        <article class="card project">
+          <img src="assets/img/mockup.svg" alt="Mockup de la landing page integradora" width="640" height="400" loading="lazy">
+          <div class="body">
+            <p class="year">2026</p>
+            <h3><a href="https://github.com/TU-USUARIO/TU-REPO-LANDING" target="_blank" rel="noopener noreferrer">Landing page integradora</a></h3>
+            <p>Landing responsive con Flexbox, Grid y animaciones. Aprendí a pensar mobile-first.</p>
+            <ul class="chips"><li>HTML</li><li>CSS</li><li>Grid</li></ul>
+          </div>
+        </article>
+        <article class="card project">
+          <img src="assets/img/mockup.svg" alt="Diagrama del sistema de Mesa de Ayuda" width="640" height="400" loading="lazy">
+          <div class="body">
+            <p class="year">2026</p>
+            <h3><a href="https://github.com/TU-USUARIO/TU-REPO-MESA" target="_blank" rel="noopener noreferrer">Mesa de Ayuda: análisis y diseño</a></h3>
+            <p>Relevamiento de requisitos y modelado UML de un sistema de soporte. Aprendí a traducir necesidades en casos de uso.</p>
+            <ul class="chips"><li>UML</li><li>Mermaid</li><li>Requisitos</li></ul>
+          </div>
+        </article>
+      </div>
+
+      <!-- Caso de estudio (modal) -->
+      <dialog id="caso-cubri" aria-labelledby="caso-titulo">
+        <button class="close" data-close aria-label="Cerrar caso de estudio">✕</button>
+        <h3 id="caso-titulo">Caso de estudio: Cubrí Seguros</h3>
+        <h4>Problema</h4>
+        <p>Contratar un seguro online suele pedir demasiados datos y pasos confusos. <!-- COMPLETAR con tu problema real --></p>
+        <h4>Proceso</h4>
+        <p>Definí un usuario objetivo, comparé tres referentes, dibujé wireframes y probé el prototipo con personas. <!-- COMPLETAR --></p>
+        <h4>Solución</h4>
+        <p>Un flujo en pasos cortos, con progreso visible, formularios claros y resumen antes de confirmar. <!-- COMPLETAR --></p>
+        <h4>Resultado</h4>
+        <p>Las personas completaron la contratación sin ayuda. Aprendí a validar antes de codear. <!-- COMPLETAR con hallazgos --></p>
+        <p><a href="https://www.figma.com/TU-LINK" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">Ver en Figma</a></p>
+      </dialog>
+    </section>
+
+    <!-- 6. EXPERIENCIA / FORMACIÓN -->
+    <section id="experience" class="container section" aria-labelledby="experience-titulo">
+      <h2 id="experience-titulo">Experiencia y formación</h2>
+      <ol class="timeline">
+        <li>
+          <time>2026</time>
+          <h3>Diseño UX-UI · Trabajo final</h3>
+          <p class="org">Licenciatura en Sistemas de Información, UADER</p>
+          <ul><li>Diseñé y publiqué mi portfolio completo, del research al deploy.</li><li>Apliqué WCAG 2.2 AA y probé el diseño con usuarios.</li></ul>
+        </li>
+        <li>
+          <time>2024 – actualidad</time>
+          <h3>Estudiante de Sistemas de Información</h3>
+          <p class="org">UADER, Facultad de Ciencia y Tecnología</p>
+          <ul><li>Cursé ingeniería de software, POO y estructuras de datos.</li><li>Entregué proyectos con documentación y control de versiones.</li></ul>
+        </li>
+        <li>
+          <time>2025</time>
+          <h3>Curso complementario</h3>
+          <p class="org">Plataforma o institución</p>
+          <ul><li>Logro concreto 1.</li><li>Logro concreto 2.</li></ul>
+        </li>
+      </ol>
+    </section>
+
+    <!-- 7. SOBRE MÍ -->
+    <section id="about" class="container section" aria-labelledby="about-titulo">
+      <h2 id="about-titulo">Sobre mí</h2>
+      <div class="about">
+        <img src="assets/img/retrato.svg" alt="Retrato de Juan Cruz Rafart Barrionuevo" width="400" height="400" loading="lazy">
+        <div>
+          <p>Soy estudiante de Sistemas de Información y me gusta que las cosas funcionen y se entiendan a la primera. Me interesa conectar el diseño de interfaces con el código que las hace reales.</p>
+          <div class="grid principles">
+            <article class="card"><h3>Claridad primero</h3><p>Si no se entiende en segundos, se rediseña.</p></article>
+            <article class="card"><h3>Accesible desde el inicio</h3><p>Diseño para que todas las personas puedan usarlo.</p></article>
+            <article class="card"><h3>Iterar con usuarios</h3><p>Pruebo, escucho y ajusto antes de dar algo por terminado.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. CONTACTO -->
+    <section id="contact" class="container section" aria-labelledby="contact-titulo">
+      <div class="contact-box">
+        <h2 id="contact-titulo">Trabajemos juntos</h2>
+        <p>Estoy buscando mi primera experiencia en UX/UI y front-end. Escribime y charlamos.</p>
+        <p><a href="mailto:tu-email@ejemplo.com" class="btn btn-light">tu-email@ejemplo.com</a></p>
+        <ul class="links">
+          <li><a href="https://www.linkedin.com/in/TU-USUARIO" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="https://github.com/TU-USUARIO" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://www.behance.net/TU-USUARIO" target="_blank" rel="noopener noreferrer">Behance</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 9. FOOTER -->
+  <footer id="footer" class="site-footer">
+    <div class="container foot">
+      <p>© 2026 Juan Cruz Rafart Barrionuevo</p>
+      <nav aria-label="Pie de página">
+        <ul>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#experience">Formación</a></li>
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#contact">Contacto</a></li>
+          <li><a href="https://github.com/TU-USUARIO" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/TU-USUARIO" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
+      </nav>
+      <p>Hecho con HTML5 y CSS3.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
